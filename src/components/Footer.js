@@ -20,7 +20,7 @@ const Footer = () => (
           </a>
         </li>
         <li>
-          <a href="outsideencased@gmail.com" className="icon fa-envelope-o">
+          <a href="mailto:outsideencased@gmail.com" className="icon fa-envelope-o">
             <span className="label">Email</span>
           </a>
         </li>
