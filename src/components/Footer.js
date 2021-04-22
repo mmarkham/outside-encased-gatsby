@@ -9,11 +9,6 @@ const Footer = () => (
             <span className="label">Etsy</span>
           </a>
         </li>
-        {/* <li>
-          <a href="https://www.facebook.com/groups/DogspottingSociety/" target="_blank" className="icon fa-facebook">
-            <span className="label">Facebook</span>
-          </a>
-        </li> */}
         <li>
           <a href="https://www.instagram.com/outsideencased/" target="_blank" className="icon fa-instagram">
             <span className="label">Instagram</span>
