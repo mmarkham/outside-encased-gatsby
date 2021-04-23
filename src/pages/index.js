@@ -21,7 +21,7 @@ const HomeIndex = () => {
         <section id="one">
           <header className="major">
             <h2>
-            Passionate beach-bum and eclectic crafter,
+            Passionate beach-bum and eclectic crafter,&nbsp;
               <br />
               working and creating in Monterey, CA
             </h2>
