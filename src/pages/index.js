@@ -1,9 +1,10 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-//import { Link } from 'gatsby'
+import { Link } from 'gatsby'
 import Gallery from '../components/Gallery'
 import ContactForm from '../components/ContactForm'
 import Layout from '../components/layout'
+import { DEFAULT_IMAGES } from '../components/Gallery/constants/defaultImages'
 
 const HomeIndex = () => {
   const siteTitle = 'Outside Encased'
@@ -35,11 +36,14 @@ const HomeIndex = () => {
         <section id="two">
           <h2>Recent Work</h2>
 
-          <Gallery />
+          <Gallery images={DEFAULT_IMAGES}/>
 
           <ul className="actions">
             <li>
               <a href="https://www.etsy.com/shop/OutsideEncased" target="_blank" rel="noreferrer" className="button">Items For Sale</a>
+            </li>
+            <li>
+              <a className="button"><Link to="/PastProjects">Past Projects</Link></a>
             </li>
           </ul>
         </section>

@@ -3,8 +3,10 @@ import PropTypes from 'prop-types'
 import Carousel, { Modal, ModalGateway } from 'react-images'
 import GalleryItem from './GalleryItem'
 import { DEFAULT_IMAGES } from '../constants/defaultImages'
+import { PAST_IMAGES } from '../constants/pastimages'
 
-const Gallery = ({ images = DEFAULT_IMAGES }) => {
+const Gallery = props => {
+  const images = props.images
   const [lightboxIsOpen, setLightboxIsOpen] = useState(false)
   const [selectedIndex, setSelectedIndex] = useState(0)
 
