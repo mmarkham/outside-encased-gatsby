@@ -1,18 +1,3 @@
-# gatsby-starter-strata
-
-**This is a starter for Gatsby.js V2.**
-
-**The older V1 version of this starter can be found on the v1 branch**
-
-Gatsby starter based on the Strata site template, designed by [HTML5 UP](https://html5up.net/strata). Check out https://codebushi.com/gatsby-starters-and-themes/ for more Gatsby starters and templates.
-
-## Preview
-
-http://gatsby-strata.surge.sh/
-
-## Installation
-
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-`gatsby new gatsby-starter-strata https://github.com/codebushi/gatsby-starter-strata`
-
-Run `gatsby develop` in the terminal to start.
+Website made with gatsby to showcase resin art (https://www.outsideencased.com)
+![2021-11-09 14_40_57-Outside Encased — Mozilla Firefox](https://user-images.githubusercontent.com/8061492/141017190-3d5cee63-5cd9-4966-b790-f75f9664f2d2.png)
+![2021-11-09 14_41_42-Outside Encased — Mozilla Firefox](https://user-images.githubusercontent.com/8061492/141017201-13022c9e-869a-44af-85dc-fad1fecbd2ed.png)
